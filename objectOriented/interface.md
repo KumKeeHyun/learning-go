@@ -183,3 +183,17 @@ func main() {
     displayCost(items)
 }
 ```
+
+<br>
+
+### 익명 인터페이스
+
+```go
+func something(interface{}) {
+    // body
+}
+```
+
+익명 인터페이스로 아무런 메소드를 정의하지 않은 interface{} 를 통해 something 함수는 모든 타입을 전달인자로 받을 수 있다. 
+
+void* 역할을 하는 것 같다. 
