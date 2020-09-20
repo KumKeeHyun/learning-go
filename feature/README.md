@@ -1,0 +1,3 @@
+# Duck Typing
+
+about interface
